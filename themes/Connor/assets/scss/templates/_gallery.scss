@@ -3,6 +3,15 @@
   background-image: url("assets/img/moon-surface.jpg") !important;
   background-size: cover;
   height:100vh;
+
+  @include bp (tablet){
+    height:100%;
+  }
+
+  @include bp (phone){
+    height:100%;
+  }
+
   .thumb-style{
     -webkit-box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
     -moz-box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
