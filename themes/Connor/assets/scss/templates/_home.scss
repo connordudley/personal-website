@@ -1,0 +1,145 @@
+.home-one{
+  height:100vh;
+  background-image: url("assets/img/space-stars.jpg");
+  background-size: cover;
+  padding:0;
+  .main-header-content{
+    background-image: url("assets/img/CGD_1.png");
+    background-size: contain;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    padding:0;
+  }
+  h1{
+    color:#ff0000;
+  }
+}
+
+
+.title-padding{
+  padding:0px !important;
+}
+.work-title{
+
+  h3{
+    text-transform: uppercase;
+  }
+}
+
+
+.interests{
+  height:50vh !important;
+  top:50px;
+
+  @media (max-width:1300px) {
+    top:0px;
+  }
+
+  @include bp (tablet){
+    height:100% !important;
+  }
+  @include bp (phone){
+    height:100% !important;
+  }
+
+
+
+  h2{
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:#000000 !important;
+  }
+}
+
+.resume-section{
+  background-image: url("assets/img/space-jesus-two.jpg") !important;
+  background-size: cover;
+
+  .et_pb_row_fullwidth{
+    width:78% !important;
+    max-width:78% !important;
+  }
+}
+
+.resume{
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+  padding:15px !important;
+  h1{
+    color:#000000 !important;
+    text-transform: uppercase;
+  }
+}
+
+.resume-sector{
+  background-image: url("assets/img/space-jesus-two.jpg") !important;
+  background-size: cover;
+  .resume-title{
+    background-color: rgba(255 , 255, 255, .8);
+    border-radius:5px;
+    padding:15px;
+    h1{
+      color:#000000;
+      text-transform: uppercase;
+    }
+
+  }
+  .employment-title{
+    background-color: rgba(255 , 255, 255, .8);
+    border-radius:5px;
+    padding:15px;
+    h2{
+      color:#000000;
+      text-transform: uppercase;
+    }
+  }
+  .qualification{
+    .education{
+      background-color: rgba(255 , 255, 255, .8);
+      border-radius:5px;
+      padding:15px;
+      h3{
+        color:#000000;
+        text-transform:uppercase;
+      }
+      h4{
+        color:#000000;
+      }
+      h5{
+        font-size:17px;
+      }
+      p{
+        color:#000000 !important;
+      }
+      li{
+        color:#000000;
+      }
+    }
+
+  }
+}
+
+.mobile_menu_bar:before{
+  color:#ffffff !important;
+}
+
+.mobile_menu_bar:after{
+  color:#ffffff !important;
+}
+
+.et_mobile_menu{
+  background-color: #000000 !important;
+  text-transform: uppercase;
+  border-top:5px solid #ffffff;
+}
+
+.mobile-margin{
+  @include bp (tablet){
+    margin-bottom:0px !important;
+  }
+  @include bp (phone){
+    margin-bottom:0px !important;
+  }
+}

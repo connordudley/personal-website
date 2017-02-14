@@ -1,0 +1,65 @@
+.contact-section{
+  background-color: #000000;
+  background-image: url("assets/img/connection.jpg");
+  background-size: cover;
+  height:100vh;
+  color:#ffffff;
+  font-size: 18px;
+
+  @include bp (tablet){
+    height:100%;
+  }
+
+  @include bp (phone){
+    height:100%;
+  }
+
+  form{
+    margin-top:20px;
+    .wdform_page{
+      background-color: rgba(0,0,0,.8);
+      width:100%;
+      padding-top: 0px;
+      border-radius:5px;
+      padding: 15px;
+      -webkit-box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+      -moz-box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+      box-shadow: 0px 0px 20px 3px rgba(255,255,255,1);
+      color:#ffffff;
+    }
+    .wdform-label{
+      color:#ffffff;
+      font-family: sans-serif;
+    }
+    .wdform-required{
+      color:#ffffff;
+    }
+      .button-submit{
+        background-color: #000000;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 20px 1px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 20px 1px rgba(255,255,255,1);
+        box-shadow: 0px 0px 20px 1px rgba(255,255,255,1);
+        font-family: sans-serif;
+        text-transform:uppercase;
+      }
+
+      .button-reset{
+        background-color: #000000;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 20px 1px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 20px 1px rgba(255,255,255,1);
+        box-shadow: 0px 0px 20px 1px rgba(255,255,255,1);
+        font-family: sans-serif;
+        text-transform:uppercase;
+      }
+
+  }
+  .back-style{
+    background-color: rgba(0, 0, 0, 0) !important;
+    a{
+      text-transform: uppercase !important;
+      color:#ffffff;
+    }
+  }
+}

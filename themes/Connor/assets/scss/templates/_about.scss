@@ -1,0 +1,66 @@
+.bio-section{
+  background-color: #fff !important;
+  background-image: url("assets/img/space-jesus-two.jpg") !important;
+  height:100%;
+  color:#000000;
+
+
+  img{
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0,0,0,1);
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,1);
+    @include bp(tablet){
+      -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+      -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+      box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+    }
+    @include bp(phone){
+      -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+      -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+      box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+    }
+  }
+
+  .bio-copy{
+    background-color: rgba(255,255,255,.6);
+    padding:15px;
+    border-radius:5px;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0,0,0,1);
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,1);
+    color:#000000 !important;
+
+    p{
+      color:#000000;
+    }
+
+
+    @include bp(tablet){
+      -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+      -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+      box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+    }
+    @include bp(phone){
+      -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+      -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+      box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+    }
+
+
+      .alignLeft{
+        color:#000000;
+      }
+
+
+    p{
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+    h3{
+      color:#000000;
+      text-transform: uppercase;
+      text-align: center;
+      font-size:24px;
+    }
+  }
+}
