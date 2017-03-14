@@ -1,4 +1,4 @@
-var gulp       = require('gulp');
+var gulp = require('gulp');
 var config = require('./gulpConfig.json');
 var plugins  = require('gulp-load-plugins')(config.loadOpts);
 require('gulp-task-loader')();

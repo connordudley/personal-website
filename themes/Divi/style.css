@@ -10312,7 +10312,6 @@ body.ie .et_pb_divider {
 .et_pb_gallery .et_pb_gallery_pagination,
 .et_pb_filterable_portfolio .et_pb_portofolio_pagination {
 	width: 100%;
-	border-top: 1px solid #e2e2e2;
 }
 
 .et_pb_gallery .et_pb_gallery_pagination ul,

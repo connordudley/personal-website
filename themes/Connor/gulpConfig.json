@@ -34,7 +34,7 @@
 		"dest":  "./assets/img/"
 	},
 	"browserSync" : {
-		"url" : "connor.dev",
+		"url" : "connordudley.dev",
 		"open": false,
 		"files": [
 			"**/*.php",
